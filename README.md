@@ -16,6 +16,77 @@ The system should include a pipeline for scraping, storing, and structuring data
 Users should be able to browse documents, generate summaries, and conduct Q&A sessions using a multi-modal Retrieval-Augmented Generation (RAG) model.
 The platform should provide accurate, document-specific insights, support incremental indexing, and offer efficient search functionality, all accessible through a publicly deployed application.
 
+Components Overview:
+
+Data Ingestion and Database Population
+Client-Facing Application using FastAPI and Streamlit
+Research Notes Indexing and Search
+Deployment and Accessibility
+
+Tools and Technologies:
+
+AWS S3: Storage for images and PDFs from CFA publications.
+Snowflake: For structured storage of metadata and processed data.
+Airflow: Pipeline automation and scheduling.
+FastAPI and Streamlit: Frontend for user interactions.
+Docker and Docker Compose: For containerization.
+Python and Dependencies (TOML managed): Backend scripting and AI integrations.
+NVIDIA Embeddings and OpenAI: For summaries and document embeddings.
+FAISS and Llama Index: For vector storage and indexing.
+
+Client-Facing Application
+Components
+
+FastAPI Endpoints:
+Users can explore available documents and query metadata.
+Streamlit UI:
+Provides options to browse documents with images and dropdown selection.
+Generates summaries and allows querying based on the user's input.
+Real-Time Summarization:
+Utilizes NVIDIA's API for dynamic summarization.
+Question-Answering (QA) Interface:
+Multi-modal retrieval and question-answering through OpenAI’s LLM.
+
+Code and Modules
+
+api_Final.py: FastAPI backend to handle API requests and interact with Snowflake and S3.
+main_app.py: Streamlit frontend interface for the users.
+
+Research Notes Indexing and Search
+Functionality
+
+Incremental Indexing and Storage:
+
+Research notes are created based on QA results and indexed using FAISS and Llama Index for optimized retrieval.
+Search Capabilities:
+
+Users can search notes and document text for detailed insights.
+Query results include both full documents and indexed research notes for enhanced relevance.
+
+Approach
+
+FAISS for Vector Search: Fast and efficient similarity search.
+Llama Index: Manages indexes across various research notes.
+
+Deployment and Accessibility
+
+Setup
+Containerization: FastAPI and Streamlit applications are containerized using Docker.
+Docker Compose: Deploys services to ensure seamless communication between backend and frontend.
+
+Cloud Deployment on AWS EC2:
+
+Hosted on an EC2 instance with public access to the API and Streamlit application.
+
+Docker Configuration
+Dockerfile.fastapi and Dockerfile.streamlit: Builds for FastAPI and Streamlit, respectively.
+docker-compose.yml: Manages multi-container deployment.
+
+Challenges and Future Enhancements
+
+Handling Large Scale Data: Scaling S3 storage and Snowflake configurations for larger datasets.
+Enhanced QA with Contextual Understanding: Further refining the QA model using advanced embeddings.
+User Authentication: Adding authentication for secure access to sensitive research data.
 
 **Architecture diagram :**
 
