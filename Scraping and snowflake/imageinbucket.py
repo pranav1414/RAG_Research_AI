@@ -12,8 +12,8 @@ import boto3
 
 # AWS S3 setup with your provided credentials
 s3 = boto3.client('s3',
-                  aws_access_key_id='AKIAQIJRSDTXXVW6DVT5',
-                  aws_secret_access_key='s0Q/T4oYaiEmC3lCOKxrAVuwr6wUEZ6y22mzT+9/',
+                  aws_access_key_id='',
+                  aws_secret_access_key='',
                   region_name='us-east-1')
 
 # S3 bucket name
