@@ -22,8 +22,8 @@ from fastapi.responses import JSONResponse
 load_dotenv()
 
 #AWS S3 credentials
-AWS_ACCESS_KEY_ID = "AKIATQZCSU4ZCFJ43IOM"
-AWS_SECRET_ACCESS_KEY = "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"
+AWS_ACCESS_KEY_ID = ""
+AWS_SECRET_ACCESS_KEY = ""
 BUCKET_NAME = "bigdata-team9"
 S3_FOLDER_PATH = "scraped_raw/pdfs/"
 
@@ -47,7 +47,7 @@ s3_client = boto3.client(
 )
 
 #Load the NVIDIA API key
-os.environ['NVIDIA_API_KEY'] = "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"
+os.environ['NVIDIA_API_KEY'] = ""
 
 # Function to list PDF files in the specified S3 folder
 def list_pdfs_from_s3(bucket, folder_path):
