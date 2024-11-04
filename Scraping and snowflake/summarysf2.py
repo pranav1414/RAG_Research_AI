@@ -10,7 +10,7 @@
 # import snowflake.connector
 
 # # Snowflake connection details
-# SNOWFLAKE_USER = "Pranaav1392"
+# SNOWFLAKE_USER = ""
 # SNOWFLAKE_PASSWORD = ""
 # SNOWFLAKE_ACCOUNT = "rghxtqa-yub04874"
 # SNOWFLAKE_WAREHOUSE = "COMPUTE_WH"
@@ -293,8 +293,8 @@
 # import snowflake.connector
 
 # # Snowflake connection details
-# SNOWFLAKE_USER = "Pranaav1392"
-# SNOWFLAKE_PASSWORD = "Pran@av1392"
+# SNOWFLAKE_USER = ""
+# SNOWFLAKE_PASSWORD = ""
 # SNOWFLAKE_ACCOUNT = "rghxtqa-yub04874"
 # SNOWFLAKE_WAREHOUSE = "COMPUTE_WH"
 # SNOWFLAKE_DATABASE = "CFA_PUBLICATIONS"
@@ -576,8 +576,8 @@ from selenium.webdriver.common.by import By
 import snowflake.connector
 
 # Snowflake connection details
-SNOWFLAKE_USER = 'Pranaav1392'
-SNOWFLAKE_PASSWORD = 'Pran@av1392'
+SNOWFLAKE_USER = ''
+SNOWFLAKE_PASSWORD = ''
 SNOWFLAKE_ACCOUNT = 'rghxtqa-yub04874'
 SNOWFLAKE_WAREHOUSE = 'COMPUTE_WH'
 SNOWFLAKE_DATABASE = 'TEST_CFA_PUBLISH'
