@@ -1,9 +1,9 @@
 # RAG for Research AI: Intelligent Document Management and Exploration
 
 **Project Overview :** 
-The objective of this assignment is to create an end-to-end system for extracting, managing, and interacting with research publications from the CFA Institute Research Foundation, enabling users to explore and analyze information in a seamless and efficient manner. The system begins with an automated data ingestion pipeline, where publication data, including titles, summaries, images, and PDFs, is scraped and stored. The documents are organized in an AWS S3 bucket, while metadata and links are maintained in a Snowflake database for structured access. The ingestion process is automated through Airflow, ensuring that the data retrieval, storage, and database population are efficient, reliable, and scalable.Building on this foundation, a user-facing application is developed using FastAPI and Streamlit, allowing users to interact with the stored documents. Users can explore documents, generate summaries, and conduct Q&A sessions through a multi-modal Retrieval-Augmented Generation (RAG) model that leverages NVIDIA services for on-the-fly summaries and interactive querying. To facilitate document-specific insights, the system includes indexing and search functionalities, allowing users to search within research notes or full document text to extract meaningful information. To ensure accessibility and scalability, the entire application is containerized with Docker and deployed on a public cloud, offering a robust, user-friendly platform that supports efficient document exploration and enhances the research experience.
+The objective of this project is to create an end-to-end system for extracting, managing, and interacting with research publications from the CFA Institute Research Foundation, enabling users to explore and analyze information in a seamless and efficient manner. The system begins with an automated data ingestion pipeline, where publication data, including titles, summaries, images, and PDFs, is scraped and stored. The documents are organized in an AWS S3 bucket, while metadata and links are maintained in a Snowflake database for structured access. The ingestion process is automated through Airflow, ensuring that the data retrieval, storage, and database population are efficient, reliable, and scalable.Building on this foundation, a user-facing application is developed using FastAPI and Streamlit, allowing users to interact with the stored documents. Users can explore documents, generate summaries, and conduct Q&A sessions through a multi-modal Retrieval-Augmented Generation (RAG) model that leverages NVIDIA services for on-the-fly summaries and interactive querying. To facilitate document-specific insights, the system includes indexing and search functionalities, allowing users to search within research notes or full document text to extract meaningful information. To ensure accessibility and scalability, the entire application is containerized with Docker and deployed on a public cloud, offering a robust, user-friendly platform that supports efficient document exploration and enhances the research experience.
 
-
+**Video** - https://drive.google.com/file/d/1h2B5IQ4b8CGPbwIMJDLo2LwEdr9p_9bD/view?usp=drive_link
 
 **Key Technologies :**
 
@@ -93,26 +93,10 @@ User Authentication: Adding authentication for secure access to sensitive resear
 ![image](https://github.com/user-attachments/assets/8a6d5b50-4e06-4db7-84ad-2aaa9ac7643f)
 
 
-
-
-
 **Contribution :**
-
-WE ATTEST THAT WE HAVEN’T USED ANY OTHER STUDENTS’ WORK IN OUR 
-ASSIGNMENT AND ABIDE BY THE POLICIES LISTED IN THE STUDENT HANDBOOK
 
 | Name            | Contribution %                       |
 |------------------|-------------------------------------|
 | Shubham Agarwal  | 33.33 %                             |
 | Chinmay Sawant   | 33.34 %                             |
 | Pranav Sonje     | 33.33 %                             |
-
-**Documentation files Team_9** 
-
-**Code labs** - https://codelabs-preview.appspot.com/?file_id=11kd-nfh1II7Lafn1ePe5I9zrkUU2L0NpWWojPZNoMd0
-
-**Google Doc** - https://docs.google.com/document/d/11kd-nfh1II7Lafn1ePe5I9zrkUU2L0NpWWojPZNoMd0/edit?tab=t.0
-
-**Video** - https://drive.google.com/file/d/1h2B5IQ4b8CGPbwIMJDLo2LwEdr9p_9bD/view?usp=drive_link
-
-**Web Link** - http://10.110.35.159:8501 
