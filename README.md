@@ -97,6 +97,6 @@ User Authentication: Adding authentication for secure access to sensitive resear
 
 | Name            | Contribution %                       |
 |------------------|-------------------------------------|
-| Shubham Agarwal  | 33.33 %                             |
-| Chinmay Sawant   | 33.34 %                             |
 | Pranav Sonje     | 33.33 %                             |
+| Chinmay Sawant   | 33.34 %                             |
+| Shubham Agarwal  | 33.33 %                             |
