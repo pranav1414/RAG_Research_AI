@@ -92,11 +92,3 @@ User Authentication: Adding authentication for secure access to sensitive resear
 
 ![image](https://github.com/user-attachments/assets/8a6d5b50-4e06-4db7-84ad-2aaa9ac7643f)
 
-
-**Contribution :**
-
-| Name            | Contribution %                       |
-|------------------|-------------------------------------|
-| Pranav Sonje     | 33.33 %                             |
-| Chinmay Sawant   | 33.34 %                             |
-| Shubham Agarwal  | 33.33 %                             |
